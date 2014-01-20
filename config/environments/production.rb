@@ -80,5 +80,5 @@ Pint2::Application.configure do
 
 # required for heroku
 # note to set this to your actual host
-config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+config.action_mailer.default_url_options = { :host => 'http://omr-pint2.herokuapp.com/' }
 end
